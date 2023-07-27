@@ -1,0 +1,70 @@
+body {
+  background-image: url(../img/TeatroSpezzato.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #9e6868;
+  
+}
+
+.titleWrapper span {
+  color: #fff;
+  font-size: 4.5vw;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.titleWrapper span .multiText {
+  font-weight: 800;
+  color: #ffcb21;
+}
+
+.descrizione {
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+.desc {
+  text-align: justify;
+}
+
+.codiceCliente {
+  text-align: center;
+  font-weight: bolder;
+  background: linear-gradient(to top, #703333, #f1d4d4);
+  box-shadow: 5px 10px #88888834;
+  border: none;
+}
+
+.codiceClienteAccedi {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  background: linear-gradient(to top, #703333, #f1d4d4);
+  box-shadow: 5px 10px #88888834;
+  border: none;
+}
+
+.codiceCliente::placeholder {
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .titleWrapper span {
+    font-size: 8.5vw;
+  }
+
+  .descrizione {
+    font-size: 0.9rem;
+  }
+  .desc {
+    text-align: left;
+  }
+
+  .codiceCliente {
+    font-size: 0.8rem;
+  }
+}
